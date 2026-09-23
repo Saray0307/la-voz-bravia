@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos y Trayectoria | Karol Quintana</title>
+    
+    <!-- Google Fonts & Font Awesome -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <link rel="icon" href="imagenes/logo.jpg">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar-container">
+        <div class="container navbar">
+            <a href="index.html" class="logo-brand">
+                <img src="imagenes/logo.jpg" alt="Logo Karol Quintana">
+                <div>
+                    Karol Quintana
+                    <span class="brand-sub">La Voz Bravía</span>
+                </div>
+            </a>
+
+            <nav>
+                <ul class="nav-links" id="navMenu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="artista.html">Artista</a></li>
+                    <li><a href="eventos.html" class="active">Eventos</a></li>
+                    <li><a href="contactos.html">Contactos</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="https://wa.me/573118958277?text=Hola%20Karol%20Quintana,%20me%20gustar%C3%ADa%20solicitar%20informaci%C3%B3n%20para%20una%20presentaci%C3%B3n" target="_blank" class="btn btn-whatsapp btn-sm">
+                    <i class="fa-brands fa-whatsapp"></i> Contratar
+                </a>
+                <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO DE EVENTOS -->
+    <main class="hero-wrapper" style="background-image: url('imagenes/image.png');">
+        <div class="hero-overlay"></div>
+
+        <div class="container">
+            <div class="section-header" style="margin-top: 20px;">
+                <div class="badge badge-gold"><i class="fa-solid fa-calendar-days"></i> Escenarios & Conciertos</div>
+                <h1 style="font-size: 54px; font-weight: 800; color: #fff; margin: 15px 0 10px 0;">
+                    Eventos y <span>Trayectoria</span>
+                </h1>
+                <p>Presentaciones artísticas, festivales folclóricos y premios obtenidos en los escenarios de Colombia</p>
+            </div>
+
+            <!-- FILTROS DE CATEGORÍA -->
+            <div class="eventos-filter-bar">
+                <button class="filter-btn active" data-filter="all">Todos los Eventos</button>
+                <button class="filter-btn" data-filter="festivales">Festivales</button>
+                <button class="filter-btn" data-filter="concursos">Concursos & Premios</button>
+                <button class="filter-btn" data-filter="especiales">Escenarios Especiales</button>
+                <button class="filter-btn" data-filter="medios">Medios de Comunicación</button>
+            </div>
+
+            <!-- GRID DE EVENTOS -->
+            <div class="eventos-timeline-grid">
+                
+                <!-- Evento 1 -->
+                <div class="evento-card" data-category="concursos">
+                    <div class="evento-top">
+                        <span class="evento-year">2025 / 2026</span>
+                        <span class="evento-loc"><i class="fa-solid fa-location-dot text-gold"></i> Acacías, Meta</span>
+                    </div>
+                    <div>
+                        <h3>Festival del Retorno</h3>
+                        <p>Obtención del <strong>Primer Puesto</strong> en la categoría <em>Mejor Canto del Cabrestrero</em>, destacándose por su fuerza interpretativa, impecable afinación y arraigo a la tradición llanera.</p>
+                    </div>
+                    <div class="evento-footer-tag">
+                        <i class="fa-solid fa-trophy text-gold"></i> Ganadora Primer Puesto
+                    </div>
+                </div>
+
+                <!-- Evento 2 -->
+                <div class="evento-card" data-category="concursos">
+                    <div class="evento-top">
+                        <span class="evento-year">2024 / 2026</span>
+                        <span class="evento-loc"><i class="fa-solid fa-location-dot text-gold"></i> Villavicencio, Meta</span>
+                    </div>
+                    <div>
+                        <h3>Concurso Nuevos Valores del Folclor Llanero</h3>
+                        <p>Ganadora del <strong>Primer Puesto</strong> en la modalidad <em>Voz Recia Femenina (Categoría B)</em>, certificada por la Corporación Cultural Municipal de Villavicencio (CORCUMVI).</p>
+                    </div>
+                    <div class="evento-footer-tag">
+                        <i class="fa-solid fa-award text-gold"></i> Certificación CORCUMVI
+                    </div>
+                </div>
+
+                <!-- Evento 3 -->
+                <div class="evento-card" data-category="festivales">
+                    <div class="evento-top">
+                        <span class="evento-year">2025</span>
+                        <span class="evento-loc"><i class="fa-solid fa-location-dot text-gold"></i> Villavicencio, Meta</span>
+                    </div>
+                    <div>
+                        <h3>Torneo Internacional del Joropo</h3>
+                        <p>Presentación estelar en el evento más importante del folclor colombo-venezolano, llevando con honor la bandera de la nueva generación del joropo.</p>
+                    </div>
+                    <div class="evento-footer-tag">
+                        <i class="fa-solid fa-star text-gold"></i> Escenario Internacional
+                    </div>
+                </div>
+
+                <!-- Evento 4 -->
+                <div class="evento-card" data-category="festivales">
+                    <div class="evento-top">
+                        <span class="evento-year">2025</span>
+                        <span class="evento-loc"><i class="fa-solid fa-location-dot text-gold"></i> Puerto López, Meta</span>
+                    </div>
+                    <div>
+                        <h3>Festival del Canoero</h3>
+                        <p>Concierto folclórico ante miles de espectadores locales y turistas en el corazón geográfico de Colombia, representando con pasión la cultura metense.</p>
+                    </div>
+                    <div class="evento-footer-tag">
+                        <i class="fa-solid fa-music text-gold"></i> Concierto Principal
+                    </div>
+                </div>
+
+                <!-- Evento 5 -->
+                <div class="evento-card" data-category="festivales">
+                    <div class="evento-top">
+                        <span class="evento-year">2025</span>
+                        <span class="evento-loc"><i class="fa-solid fa-location-dot text-gold"></i> Remolino, Meta</span>
+                    </div>
+                    <div>
+                        <h3>Festival del Potro y la Vela</h3>
+                        <p>Show folclórico en vivo durante las festividades municipales con un repertorio completo de pasajes, golpes recios y contrapunteo.</p>
+                    </div>
+                    <div class="evento-footer-tag">
+                        <i class="fa-solid fa-guitar text-gold"></i> Presentación Folclórica
+                    </div>
+                </div>
+
+                <!-- Evento 6 -->
+                <div class="evento-card" data-category="festivales">
+                    <div class="evento-top">
+                        <span class="evento-year">2025</span>
+                        <span class="evento-loc"><i class="fa-solid fa-location-dot text-gold"></i> Pachaquiaro, Meta</span>
+                    </div>
+                    <div>
+                        <h3>Festival del Caribe</h3>
+                        <p>Presentación artística llevando la autenticidad del llano a la tarima central de las fiestas patronales y eventos culturales de la región.</p>
+                    </div>
+                    <div class="evento-footer-tag">
+                        <i class="fa-solid fa-compact-disc text-gold"></i> Música en Vivo
+                    </div>
+                </div>
+
+                <!-- Evento 7 -->
+                <div class="evento-card" data-category="especiales">
+                    <div class="evento-top">
+                        <span class="evento-year">2025</span>
+                        <span class="evento-loc"><i class="fa-solid fa-location-dot text-gold"></i> Apiay / Meta</span>
+                    </div>
+                    <div>
+                        <h3>Fuerza Aérea Colombiana (FAC)</h3>
+                        <p>Homenaje cultural y presentación especial para los miembros de las Fuerzas Militares en actos conmemorativos de la institución.</p>
+                    </div>
+                    <div class="evento-footer-tag">
+                        <i class="fa-solid fa-shield-halved text-gold"></i> Homenaje Institucional
+                    </div>
+                </div>
+
+                <!-- Evento 8 -->
+                <div class="evento-card" data-category="especiales">
+                    <div class="evento-top">
+                        <span class="evento-year">2025</span>
+                        <span class="evento-loc"><i class="fa-solid fa-location-dot text-gold"></i> Villavicencio, Meta</span>
+                    </div>
+                    <div>
+                        <h3>Gobernación del Meta - C.C. Único</h3>
+                        <p>Presentación oficial en el marco de las muestras culturales del Instituto Departamental de Cultura del Meta (SIDECU).</p>
+                    </div>
+                    <div class="evento-footer-tag">
+                        <i class="fa-solid fa-landmark text-gold"></i> Gobernación del Meta
+                    </div>
+                </div>
+
+                <!-- Evento 9 -->
+                <div class="evento-card" data-category="medios">
+                    <div class="evento-top">
+                        <span class="evento-year">2025 / 2026</span>
+                        <span class="evento-loc"><i class="fa-solid fa-location-dot text-gold"></i> 97.3 FM Villavicencio</span>
+                    </div>
+                    <div>
+                        <h3>Entrevista en "La Voz de los Llaneros"</h3>
+                        <p>Gira de medios en las más prestigiosas emisoras radiales promocionando su producción discográfica y sencillos musicales.</p>
+                    </div>
+                    <div class="evento-footer-tag">
+                        <i class="fa-solid fa-radio text-gold"></i> Gira Radial Nacional
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- CTA BANNER -->
+            <div class="cta-banner">
+                <div class="badge badge-gold"><i class="fa-solid fa-calendar-plus"></i> Agenda de Conciertos</div>
+                <h3>¿Quieres agendar a Karol Quintana en tu municipio o festival?</h3>
+                <p>Comunícate directamente con el equipo de representación artística para verificar disponibilidad de fechas y rider técnico.</p>
+                <div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">
+                    <a href="https://wa.me/573118958277?text=Hola%20Karol%20Quintana,%20quiero%20consultar%20disponibilidad%20para%20un%20festival/evento" target="_blank" class="btn btn-whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i> Consultar Disponibilidad por WhatsApp
+                    </a>
+                    <a href="contactos.html" class="btn btn-outline">
+                        <i class="fa-solid fa-envelope"></i> Formulario de Cotización
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- FLOATING WHATSAPP -->
+    <a href="https://wa.me/573118958277?text=Hola%20Karol%20Quintana,%20deseo%20informaci%C3%B3n%20para%20contrataciones" target="_blank" class="floating-whatsapp" title="Contactar por WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+        <span>Contratar por WhatsApp</span>
+    </a>
+
+    <!-- FOOTER -->
+    <footer class="footer-main">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="logo-brand" style="margin-bottom: 16px;">
+                        <img src="imagenes/logo.jpg" alt="Logo">
+                        <div>
+                            Karol Quintana
+                            <span class="brand-sub">La Voz Bravía</span>
+                        </div>
+                    </div>
+                    <p>Llevando la esencia, el alma y la bravura de la música llanera a cada escenario de Colombia y el mundo entero.</p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Navegación</h4>
+                    <ul class="footer-links-list">
+                        <li><a href="index.html"><i class="fa-solid fa-chevron-right"></i> Inicio</a></li>
+                        <li><a href="artista.html"><i class="fa-solid fa-chevron-right"></i> Perfil Artístico</a></li>
+                        <li><a href="eventos.html"><i class="fa-solid fa-chevron-right"></i> Eventos y Festivales</a></li>
+                        <li><a href="contactos.html"><i class="fa-solid fa-chevron-right"></i> Contrataciones & Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contacto Oficial</h4>
+                    <p style="margin-bottom: 8px;"><i class="fa-solid fa-phone text-gold"></i> +57 311 895 8277</p>
+                    <p style="margin-bottom: 8px;"><i class="fa-solid fa-envelope text-gold"></i> Lavozcriollitadelllano@gmail.com</p>
+                    <p><i class="fa-solid fa-location-dot text-gold"></i> Puerto López, Meta, Colombia</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                &copy; 2026 Karol Quintana "La Voz Bravía" — Todos los derechos reservados.
+            </div>
+        </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="js/main.js"></script>
+</body>
+</html>

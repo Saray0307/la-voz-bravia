@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artista | Karol Quintana - La Voz Bravía</title>
+    
+    <!-- Google Fonts & Font Awesome -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <link rel="icon" href="imagenes/logo.jpg">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar-container">
+        <div class="container navbar">
+            <a href="index.html" class="logo-brand">
+                <img src="imagenes/logo.jpg" alt="Logo Karol Quintana">
+                <div>
+                    Karol Quintana
+                    <span class="brand-sub">La Voz Bravía</span>
+                </div>
+            </a>
+
+            <nav>
+                <ul class="nav-links" id="navMenu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="artista.html" class="active">Artista</a></li>
+                    <li><a href="eventos.html">Eventos</a></li>
+                    <li><a href="contactos.html">Contactos</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="https://wa.me/573118958277?text=Hola%20Karol%20Quintana,%20me%20gustar%C3%ADa%20solicitar%20informaci%C3%B3n%20para%20una%20presentaci%C3%B3n" target="_blank" class="btn btn-whatsapp btn-sm">
+                    <i class="fa-brands fa-whatsapp"></i> Contratar
+                </a>
+                <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main class="hero-wrapper" style="background-image: url('imagenes/image.png');">
+        <div class="hero-overlay"></div>
+        
+        <div class="container">
+            <!-- ARTIST HERO CARD -->
+            <div class="artist-hero-card">
+                <div class="artist-portrait-box">
+                    <img src="imagenes/DSC04877.jpg" alt="Karol Quintana La Voz Bravía">
+                </div>
+
+                <div class="artist-bio-info">
+                    <div class="badge badge-gold">
+                        <i class="fa-solid fa-star"></i> Perfil Artístico Oficial
+                    </div>
+                    <h1>Karol Quintana</h1>
+                    <div class="artist-subtitle-name">"La Voz Bravía" • Música Llanera Colombiana</div>
+                    
+                    <p style="color: var(--text-secondary); font-size: 15px; line-height: 1.8;">
+                        Joven promesa y embajadora del folclor llanero colombiano. Con tan solo 15 años y más de 7 años de formación continua en técnica vocal y música tradicional, Karol Quintana cautiva al público nacional con su fuerza interpretativa, timbre recio inconfundible y profundo amor por las raíces del llano metense.
+                    </p>
+
+                    <div class="artist-quick-meta">
+                        <div class="meta-box">
+                            <i class="fa-solid fa-user-check meta-icon"></i>
+                            <div class="meta-text">
+                                <strong>Nombre Real</strong>
+                                <span>Karol Estefanía Moreno Quintana</span>
+                            </div>
+                        </div>
+                        <div class="meta-box">
+                            <i class="fa-solid fa-location-dot meta-icon"></i>
+                            <div class="meta-text">
+                                <strong>Origen y Residencia</strong>
+                                <span>Villavicencio / Puerto López, Meta</span>
+                            </div>
+                        </div>
+                        <div class="meta-box">
+                            <i class="fa-solid fa-cake-candles meta-icon"></i>
+                            <div class="meta-text">
+                                <strong>Nacimiento</strong>
+                                <span>1 de Mayo de 2010 (15 años)</span>
+                            </div>
+                        </div>
+                        <div class="meta-box">
+                            <i class="fa-solid fa-microphone-lines meta-icon"></i>
+                            <div class="meta-text">
+                                <strong>Estilo Musical</strong>
+                                <span>Voz Recia • Pasaje • Joropo Tradicional</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; gap: 14px; flex-wrap: wrap;">
+                        <a href="HOJA  DE VIDA ARTISTICA  KAROL QUINTANA 2026.pdf" download class="btn btn-gold">
+                            <i class="fa-solid fa-file-pdf"></i> Descargar Hoja de Vida (PDF)
+                        </a>
+                        <a href="https://wa.me/573118958277?text=Hola%20Karol%20Quintana,%20estoy%20interesado%20en%20contrataciones" target="_blank" class="btn btn-outline">
+                            <i class="fa-brands fa-whatsapp"></i> Contacto Directo
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RESEÑA BIOGRÁFICA -->
+            <section class="section" style="padding-top: 20px;">
+                <div class="section-header">
+                    <div class="badge">Raíces y Vocación</div>
+                    <h2>Reseña <span>Biográfica</span></h2>
+                    <p>La historia y legado folclórico de una artista nacida para cantar con el alma llanera</p>
+                </div>
+
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px;">
+                    <div class="skill-card">
+                        <h3 style="color: var(--gold-primary); font-size: 20px; margin-bottom: 15px; display: flex; align-items: center; gap: 10px;">
+                            <i class="fa-solid fa-heart"></i> Orígenes y Herencia
+                        </h3>
+                        <p style="color: var(--text-secondary); font-size: 14px; line-height: 1.8;">
+                            Nacida en Villavicencio el 1° de mayo de 2010, hija de Patricia Quintana y José Moreno, oriundos del llano metense. Cuenta con el apoyo incondicional de su hermano Yilber Quintana. Sus raíces provienen de su abuela Ruth Meneses (costas del Ariari) y su abuelo Otoniel Quintana (San Juan de Arama), quienes le inculcaron desde su más tierna infancia la devoción y el respeto por el folclor y la cultura de la tierra plana.
+                        </p>
+                    </div>
+
+                    <div class="skill-card">
+                        <h3 style="color: var(--gold-primary); font-size: 20px; margin-bottom: 15px; display: flex; align-items: center; gap: 10px;">
+                            <i class="fa-solid fa-graduation-cap"></i> Formación & Disciplina
+                        </h3>
+                        <p style="color: var(--text-secondary); font-size: 14px; line-height: 1.8;">
+                            Desde los 7 años, Karol descubrió su pasión por el canto e inició su formación en técnica vocal bajo la guía de la destacada profesora <strong>Eliana Barrera Riveros</strong> en Puerto López, Meta, a través de los procesos culturales de <strong>IMDERCUT</strong>. Actualmente cursa el grado 11° en el Colegio Santa Teresa de Pachaquiaro, combinando su formación académica con su consagración musical.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- HABILIDADES FOLCLÓRICAS -->
+            <section class="section" style="padding-top: 10px;">
+                <div class="section-header">
+                    <div class="badge">Destrezas</div>
+                    <h2>Habilidades <span>Artísticas</span></h2>
+                    <p>Evaluación de aptitudes tradicionales del folclor llanero</p>
+                </div>
+
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <span class="skill-title"><i class="fa-solid fa-microphone text-gold"></i> Voz Recia Llanera</span>
+                            <span class="skill-score">10 / 10</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-fill" style="width: 100%;"></div>
+                        </div>
+                        <p class="skill-desc">Potencia vocal, entonación, modulación bravía y sentimiento criollo en el escenario.</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <span class="skill-title"><i class="fa-solid fa-guitar text-gold"></i> Ejecución de Cuatro</span>
+                            <span class="skill-score">9 / 10</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-fill" style="width: 90%;"></div>
+                        </div>
+                        <p class="skill-desc">Acompañamiento armónico y rítmico tradicional en los diversos golpes del joropo.</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <span class="skill-title"><i class="fa-solid fa-shoe-prints text-gold"></i> Baile de Joropo</span>
+                            <span class="skill-score">8 / 10</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-fill" style="width: 80%;"></div>
+                        </div>
+                        <p class="skill-desc">Zapateo, escobillao y expresión corporal que refleja la elegancia y vigor del llano.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- DISCOGRAFÍA & PRODUCCIÓN MUSICAL -->
+            <section class="section" style="padding-top: 10px;">
+                <div class="section-header">
+                    <div class="badge">Lanzamientos Oficiales</div>
+                    <h2>Producción <span>Discográfica</span></h2>
+                    <p>Sencillos musicales de la autoría de Eliana Barrera Riveros grabados en Cumaral, Meta</p>
+                </div>
+
+                <div class="music-grid">
+                    <!-- Tema 1 -->
+                    <div class="music-card">
+                        <div class="music-thumb">
+                            <img src="imagenes/DSC04858.jpg" alt="La Más Taquillera">
+                            <a href="https://www.youtube.com/watch?v=9ldh7Ody5B8&list=RD9ldh7Ody5B8&start_radio=1" target="_blank" class="music-thumb-overlay" title="Ver en YouTube">
+                                <div class="play-icon-btn"><i class="fa-solid fa-play"></i></div>
+                            </a>
+                        </div>
+                        <div class="music-content">
+                            <div>
+                                <span class="music-tag">Primer Sencillo • 2025</span>
+                                <h3 class="music-title">La Más Taquillera</h3>
+                                <p class="music-credits">
+                                    <strong>Autora:</strong> Eliana Barrera Riveros<br>
+                                    <strong>Grabación:</strong> DH Studios (Cumaral, Meta)<br>
+                                    <strong>Agrupación:</strong> Cuerdas al Galope
+                                </p>
+                            </div>
+                            <a href="https://www.youtube.com/watch?v=9ldh7Ody5B8&list=RD9ldh7Ody5B8&start_radio=1" target="_blank" class="btn btn-gold btn-sm">
+                                <i class="fa-brands fa-youtube"></i> Ver Video Oficial
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Tema 2 -->
+                    <div class="music-card">
+                        <div class="music-thumb">
+                            <img src="imagenes/DSC04900.jpg" alt="Prometí Volver Al Llano">
+                            <a href="https://www.youtube.com/watch?v=ru4wege33XM&list=RDru4wege33XM&start_radio=1" target="_blank" class="music-thumb-overlay" title="Ver en YouTube">
+                                <div class="play-icon-btn"><i class="fa-solid fa-play"></i></div>
+                            </a>
+                        </div>
+                        <div class="music-content">
+                            <div>
+                                <span class="music-tag">Segundo Sencillo • 2025</span>
+                                <h3 class="music-title">Prometí Volver Al Llano</h3>
+                                <p class="music-credits">
+                                    <strong>Autora:</strong> Eliana Barrera Riveros<br>
+                                    <strong>Grabación:</strong> DH Studios (Cumaral, Meta)<br>
+                                    <strong>Agrupación:</strong> Cuerdas al Galope
+                                </p>
+                            </div>
+                            <a href="https://www.youtube.com/watch?v=ru4wege33XM&list=RDru4wege33XM&start_radio=1" target="_blank" class="btn btn-gold btn-sm">
+                                <i class="fa-brands fa-youtube"></i> Ver Video Oficial
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Tema 3 -->
+                    <div class="music-card">
+                        <div class="music-thumb">
+                            <img src="imagenes/DSC04892.jpg" alt="Mujer Llanera">
+                            <a href="https://www.youtube.com/watch?v=WpeRKFOB_C8&list=RDWpeRKFOB_C8&start_radio=1" target="_blank" class="music-thumb-overlay" title="Ver en YouTube">
+                                <div class="play-icon-btn"><i class="fa-solid fa-play"></i></div>
+                            </a>
+                        </div>
+                        <div class="music-content">
+                            <div>
+                                <span class="music-tag">Tercer Sencillo • 2026</span>
+                                <h3 class="music-title">Mujer Llanera</h3>
+                                <p class="music-credits">
+                                    <strong>Autora:</strong> Eliana Barrera Riveros<br>
+                                    <strong>Grabación:</strong> DH Studios (Cumaral, Meta)<br>
+                                    <strong>Agrupación:</strong> Cuerdas al Galope
+                                </p>
+                            </div>
+                            <a href="https://www.youtube.com/watch?v=WpeRKFOB_C8&list=RDWpeRKFOB_C8&start_radio=1" target="_blank" class="btn btn-gold btn-sm">
+                                <i class="fa-brands fa-youtube"></i> Ver Video Oficial
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FICHA TÉCNICA -->
+                <div class="credits-box">
+                    <div class="badge badge-gold"><i class="fa-solid fa-music"></i> Ficha Técnica de Producción</div>
+                    <h3 style="color: #fff; font-size: 22px; margin-top: 10px;">Agrupación Cuerdas al Galope & DH Studios</h3>
+                    <div class="credits-grid">
+                        <div class="credit-item">
+                            <h5>Arpa</h5>
+                            <p>Rafael "Nano" Robayo</p>
+                        </div>
+                        <div class="credit-item">
+                            <h5>Cuatro</h5>
+                            <p>Alex Romero</p>
+                        </div>
+                        <div class="credit-item">
+                            <h5>Bajo</h5>
+                            <p>Adrián Ariza "Popeye"</p>
+                        </div>
+                        <div class="credit-item">
+                            <h5>Maracas e Ing. Grabación</h5>
+                            <p>Diego Hernández</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- PALMARÉS Y RECONOCIMIENTOS -->
+            <section class="section" style="padding-top: 10px;">
+                <div class="section-header">
+                    <div class="badge">Logros & Galardones</div>
+                    <h2>Palmarés y <span>Reconocimientos</span></h2>
+                    <p>Premios obtenidos en los principales certámenes folclóricos y festivales del país</p>
+                </div>
+
+                <div class="awards-grid">
+                    <div class="award-card">
+                        <span class="award-place">Primer Puesto</span>
+                        <h3>Festival del Retorno en Acacías</h3>
+                        <div class="award-org"><i class="fa-solid fa-trophy"></i> Categoría Mejor Canto del Cabrestrero</div>
+                        <p>Galardonada con el 1er puesto por su sobresaliente fuerza interpretativa, autenticidad vocal y devoción por la tradición llanera.</p>
+                    </div>
+
+                    <div class="award-card">
+                        <span class="award-place">Primer Puesto</span>
+                        <h3>21° Concurso Nuevos Valores del Folclor Llanero</h3>
+                        <div class="award-org"><i class="fa-solid fa-trophy"></i> CORCUMVI - Villavicencio</div>
+                        <p>Ganadora en la modalidad <strong>Voz Recia Femenina</strong> (Categoría B), consolidándose como la voz juvenil más impactante del certamen.</p>
+                    </div>
+
+                    <div class="award-card">
+                        <span class="award-place" style="background: #94a3b8;">Segundo Puesto</span>
+                        <h3>19° Concurso Nuevos Valores del Folclor Llanero</h3>
+                        <div class="award-org"><i class="fa-solid fa-medal"></i> CORCUMVI - Villavicencio</div>
+                        <p>Distinción en la modalidad Voz Recia Femenina representando a la Casa de la Cultura de Puerto López.</p>
+                    </div>
+
+                    <div class="award-card">
+                        <span class="award-place" style="background: #d7b58d;">Menciones de Honor</span>
+                        <h3>Concurso Regional "Nuestras Voces"</h3>
+                        <div class="award-org"><i class="fa-solid fa-certificate"></i> Colegio Cofrem (5° y 6° Edición)</div>
+                        <p>Reconocimiento otorgado por su destacada participación vocal en las ediciones 5° y 6° del festival intercolegiado.</p>
+                    </div>
+
+                    <div class="award-card">
+                        <span class="award-place" style="background: #d7b58d;">Liderazgo Juvenil</span>
+                        <h3>Semana de la Juventud</h3>
+                        <div class="award-org"><i class="fa-solid fa-star"></i> IMDERCUT & Alcaldía Puerto López</div>
+                        <p>Homenaje por su talento, participación y excelente desempeño cultural representando al municipio a nivel departamental y nacional.</p>
+                    </div>
+
+                    <div class="award-card">
+                        <span class="award-place" style="background: #d7b58d;">Certificación Oficial</span>
+                        <h3>Instituto Departamental de Cultura del Meta</h3>
+                        <div class="award-org"><i class="fa-solid fa-award"></i> SIDECU Meta</div>
+                        <p>Acreditación de trayectoria artística en el área de música tradicional llanera expedida por la Gobernación del Meta.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CTA BANNER -->
+            <div class="cta-banner">
+                <div class="badge badge-gold"><i class="fa-solid fa-calendar-check"></i> Contrataciones 2026</div>
+                <h3>¿Deseas a Karol Quintana en tu evento?</h3>
+                <p>Disponible para festivales nacionales, ferias municipales, conciertos folclóricos, eventos corporativos y celebraciones privadas.</p>
+                <div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">
+                    <a href="https://wa.me/573118958277?text=Hola%20Karol%20Quintana,%20estoy%20interesado%20en%20contratar%20tu%20show%20para%20un%20evento" target="_blank" class="btn btn-whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i> Hablar por WhatsApp
+                    </a>
+                    <a href="contactos.html" class="btn btn-outline">
+                        <i class="fa-solid fa-envelope"></i> Ver Opciones de Contacto
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- FLOATING WHATSAPP -->
+    <a href="https://wa.me/573118958277?text=Hola%20Karol%20Quintana,%20deseo%20informaci%C3%B3n%20para%20contrataciones" target="_blank" class="floating-whatsapp" title="Contactar por WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+        <span>Contratar por WhatsApp</span>
+    </a>
+
+    <!-- FOOTER -->
+    <footer class="footer-main">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="logo-brand" style="margin-bottom: 16px;">
+                        <img src="imagenes/logo.jpg" alt="Logo">
+                        <div>
+                            Karol Quintana
+                            <span class="brand-sub">La Voz Bravía</span>
+                        </div>
+                    </div>
+                    <p>Llevando la esencia, el alma y la bravura de la música llanera a cada escenario de Colombia y el mundo entero.</p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Navegación</h4>
+                    <ul class="footer-links-list">
+                        <li><a href="index.html"><i class="fa-solid fa-chevron-right"></i> Inicio</a></li>
+                        <li><a href="artista.html"><i class="fa-solid fa-chevron-right"></i> Perfil Artístico</a></li>
+                        <li><a href="eventos.html"><i class="fa-solid fa-chevron-right"></i> Eventos y Festivales</a></li>
+                        <li><a href="contactos.html"><i class="fa-solid fa-chevron-right"></i> Contrataciones & Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contacto Oficial</h4>
+                    <p style="margin-bottom: 8px;"><i class="fa-solid fa-phone text-gold"></i> +57 311 895 8277</p>
+                    <p style="margin-bottom: 8px;"><i class="fa-solid fa-envelope text-gold"></i> Lavozcriollitadelllano@gmail.com</p>
+                    <p><i class="fa-solid fa-location-dot text-gold"></i> Puerto López, Meta, Colombia</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                &copy; 2026 Karol Quintana "La Voz Bravía" — Todos los derechos reservados.
+            </div>
+        </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
