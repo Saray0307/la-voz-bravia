@@ -22,6 +22,20 @@ https://saray0307.github.io/la-voz-bravia/
 - CSS: diseño y estilos visuales.
 - JavaScript: interactividad y funcionalidades.
 
+## Cómo usarlo
+
+Para ingresar a la página web, se debe abrir un navegador y acceder al enlace de la pagina web.
+
+La página cuenta con las siguientes secciones:
+
+- Inicio: presentación de la artista.
+
+- Artista: biografía y trayectoria musical.
+
+- Eventos: presentaciones y reconocimientos.
+
+- Contactos: medios de comunicación y solicitudes de contratación.
+
 ## Integrantes del proyecto
 
 - **Jhon Alejandro Ortiz Pulecio:** Desarrollador web.
